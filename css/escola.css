@@ -1,0 +1,153 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4; 
+    color: #333;
+    line-height: 1.6;
+  }
+
+
+  header {
+    background-color: #28a745; 
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+  }
+
+  header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+
+  header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+
+  section {
+    padding: 50px 20px;
+    margin: 40px auto;
+    max-width: 1000px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  section h2 {
+    color: #28a745; 
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+
+  section p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    line-height: 1.8;
+  }
+
+  
+  ul {
+    padding-left: 20px;
+    font-size: 1rem;
+  }
+
+  ul li {
+    margin-bottom: 15px;
+    position: relative;
+    padding-left: 20px;
+    font-weight: 500;
+  }
+
+  ul li:before {
+    content: "✔";
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #28a745; 
+  }
+
+
+  footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+
+ 
+  a {
+    color: #28a745; 
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  button {
+    background-color: #28a745; 
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 25px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+  }
+
+  button:hover {
+    background-color: #218838; 
+  }
+
+ 
+  @media (max-width: 768px) {
+    header h1 {
+      font-size: 2rem;
+    }
+
+    section {
+      padding: 30px 15px;
+    }
+
+    button {
+      width: 100%;
+    }
+  }
+
+
+
+/* Container que envolve o link */
+.container {
+  text-align: center; /* Centraliza o conteúdo do container */
+}
+
+/* Estilo para o link que se comporta como botão */
+.button-link {
+  display: inline-block; /* Para o link ficar em linha */
+  background-color: #4CAF50; /* Cor de fundo (mesma da página de contatos) */
+  color: white; /* Cor do texto */
+  padding: 15px 32px; /* Tamanho do botão */
+  text-decoration: none; /* Remove o sublinhado do link */
+  font-size: 16px; /* Tamanho da fonte */
+  cursor: pointer; /* Muda o cursor para indicar que é clicável */
+  border-radius: 8px; /* Cantos arredondados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
+  transition: all 0.3s ease; /* Transição suave para efeitos */
+}
+
+/* Efeito de passar o mouse sobre o botão */
+.button-link:hover {
+  background-color: #45a049; /* Cor de fundo ao passar o mouse */
+  transform: translateY(-3px); /* Eleva o botão ao passar o mouse */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Aumenta a sombra */
+}
+
+/* Efeito quando o botão é pressionado */
+.button-link:active {
+  transform: translateY(0); /* Retorna a posição ao clicar */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra normal */
+}
